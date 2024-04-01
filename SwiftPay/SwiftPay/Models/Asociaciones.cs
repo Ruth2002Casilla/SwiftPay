@@ -15,5 +15,7 @@ namespace SwiftPay.Models
         [Required(ErrorMessage = "Este campo es obligatorio")]
         [RegularExpression(@"^[A-ZÁÉÍÓÚÑ][a-zA-ZÁÉÍÓÚÑ ]*$", ErrorMessage = "El nombre debe comenzar con una letra mayúscula y no debe contener números ni símbolos.")]
         public string? Nombre { get; set; }
+
+        //Hola
     }
 }
